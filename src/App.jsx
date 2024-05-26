@@ -1,12 +1,11 @@
-import Navbar from "./components/Navbar/Navbar"
-
+import AppRouter from './AppRouter';
 
 function App() {
-  return (
-    <>
-      <Navbar />
-    </>
-  )
+	return (
+		<>
+			<AppRouter />
+		</>
+	);
 }
 
-export default App
+export default App;
